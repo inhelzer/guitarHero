@@ -231,7 +231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &965408626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -295,6 +295,54 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.2672, z: 0}
   m_LocalScale: {x: 1.0532, y: 1.0532, z: 1.0532}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1230096386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230096388}
+  - component: {fileID: 1230096387}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1230096387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230096386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daff06507e9bf4a4cacb255024252976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onePrefab: {fileID: 7629612597401333282, guid: 31d9d691ba6ba4471a36dcff1c3fc363, type: 3}
+  twoPrefab: {fileID: 9190767905474120509, guid: 7835c93a5a12e4b9a8e010bccb82e517, type: 3}
+  threePrefab: {fileID: 7556922499583870253, guid: 79b29ce5a7cff459ab7cfdc812e8e4f1, type: 3}
+  fourPrefab: {fileID: 1569389219984480911, guid: d99f9bc978fca4ee8ba36f2fa99663f8, type: 3}
+--- !u!4 &1230096388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230096386}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -636,3 +684,4 @@ SceneRoots:
   - {fileID: 1814630983}
   - {fileID: 1900706295}
   - {fileID: 965408627}
+  - {fileID: 1230096388}
