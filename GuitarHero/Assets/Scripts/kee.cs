@@ -12,6 +12,9 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     [SerializeField] bool is3;
     [SerializeField] bool is4;
 
+    [SerializeField] GameObject hit;
+    
+
     bool isActive = false;
 
     private void Awake()
@@ -33,10 +36,18 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
 
     }
 
+    private void hitSpawner()
+    {
+        GameObject currentHit =
+            Instantiate(hit, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
+        Destroy(currentHit, 0.15f);
+    }
+
     public void On_1(InputAction.CallbackContext context)
     {
         if((context.performed) && (isActive) && (is1))
         {
+            hitSpawner();
             Destroy(gameObject);
         }
     }
@@ -45,6 +56,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is2))
         {
+            hitSpawner();
             Destroy(gameObject);
         }
     }
@@ -53,6 +65,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is3))
         {
+            hitSpawner();
             Destroy(gameObject);
         }
     }
@@ -61,6 +74,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is4))
         {
+            hitSpawner();
             Destroy(gameObject);
         }
     }

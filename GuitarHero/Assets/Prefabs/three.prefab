@@ -228,6 +228,7 @@ MonoBehaviour:
   is2: 0
   is3: 1
   is4: 0
+  hit: {fileID: 1041005759948411833, guid: 03296f58cbe634291880450bb7a5b9d5, type: 3}
 --- !u!95 &1970432844682070544
 Animator:
   serializedVersion: 5
