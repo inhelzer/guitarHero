@@ -37,37 +37,52 @@ public class Spawner : MonoBehaviour
 
     private void SpawnOne()
     {
-        if(Time.timeSinceLevelLoad >= timeOne[counterOne])
+        if(counterOne < timeOne.Length)
         {
-            Instantiate(onePrefab, transform.position, Quaternion.identity);
-            counterOne++;
+            if (Time.timeSinceLevelLoad + 0.5 >= timeOne[counterOne])
+            {
+                Instantiate(onePrefab, transform.position, Quaternion.identity);
+                counterOne++;
+            }
         }
     }
 
     private void SpawnTwo()
     {
-        if (Time.timeSinceLevelLoad >= timeTwo[counterTwo])
+        if (counterTwo < timeTwo.Length)
         {
-            Instantiate(twoPrefab, transform.position, Quaternion.identity);
-            counterTwo++;
+            if (Time.timeSinceLevelLoad + 0.5 >= timeTwo[counterTwo])
+            {
+                Instantiate(twoPrefab, transform.position, Quaternion.identity);
+                counterTwo++;
+            }
         }
+        
     }
 
     private void SpawnThree()
     {
-        if (Time.timeSinceLevelLoad >= timeThree[counterThree])
+        if(counterThree < timeThree.Length)
         {
-            Instantiate(threePrefab, transform.position, Quaternion.identity);
-            counterThree++;
+            if (Time.timeSinceLevelLoad + 0.5 >= timeThree[counterThree])
+            {
+                Instantiate(threePrefab, transform.position, Quaternion.identity);
+                counterThree++;
+            }
         }
+        
     }
 
     private void SpawnFour()
     {
-        if (Time.timeSinceLevelLoad >= timeFour[counterFour])
+        if(counterFour < timeFour.Length)
         {
-            Instantiate(fourPrefab, transform.position, Quaternion.identity);
-            counterFour++;
+            if (Time.timeSinceLevelLoad + 0.5 >= timeFour[counterFour])
+            {
+                Instantiate(fourPrefab, transform.position, Quaternion.identity);
+                counterFour++;
+            }
         }
+        
     }
 }

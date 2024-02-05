@@ -36,8 +36,9 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
 
     }
 
-    private void hitSpawner()
+    private void Hit()
     {
+        FindObjectOfType<Score>().AddScore();
         GameObject currentHit =
             Instantiate(hit, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
         Destroy(currentHit, 0.15f);
@@ -47,7 +48,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if((context.performed) && (isActive) && (is1))
         {
-            hitSpawner();
+            Hit();
             Destroy(gameObject);
         }
     }
@@ -56,7 +57,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is2))
         {
-            hitSpawner();
+            Hit();
             Destroy(gameObject);
         }
     }
@@ -65,7 +66,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is3))
         {
-            hitSpawner();
+            Hit();
             Destroy(gameObject);
         }
     }
@@ -74,7 +75,7 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
     {
         if ((context.performed) && (isActive) && (is4))
         {
-            hitSpawner();
+            Hit();
             Destroy(gameObject);
         }
     }
