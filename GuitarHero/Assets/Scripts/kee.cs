@@ -106,5 +106,8 @@ public class kee : MonoBehaviour, Controls.IGameControlsActions
         controls.GameControls.Disable();
     }
 
-
+    public void On_5(InputAction.CallbackContext context)
+    {
+        throw new System.NotImplementedException();
+    }
 }

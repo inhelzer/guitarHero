@@ -28,9 +28,18 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             ""id"": ""c1293ef5-7e71-4322-b09f-537319dae6ba"",
             ""actions"": [
                 {
+                    ""name"": ""enter"",
+                    ""type"": ""Button"",
+                    ""id"": ""eba96361-7a37-40d9-a0da-d0a2cf7e1f71"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
                     ""name"": ""1"",
                     ""type"": ""Button"",
-                    ""id"": ""2b0313b6-c96b-4a6b-8553-f9869702f26b"",
+                    ""id"": ""73bd8bbe-6bad-424b-90a6-f697adf7790d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,7 +48,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""2"",
                     ""type"": ""Button"",
-                    ""id"": ""ae89efe2-eddf-4c82-a0d3-570418e72317"",
+                    ""id"": ""19559871-53dd-420c-b375-579a2e4fe684"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -48,7 +57,7 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""3"",
                     ""type"": ""Button"",
-                    ""id"": ""3650d42e-5633-4399-bc67-8143f6f43d99"",
+                    ""id"": ""8c977484-f4cb-433a-9c02-7236f4526cb5"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -57,16 +66,16 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""4"",
                     ""type"": ""Button"",
-                    ""id"": ""b6d0bc44-66e0-45db-b769-cdd2ebcff32e"",
+                    ""id"": ""39da5962-72bb-49d3-8a85-1a4d39ccde4d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""enter"",
+                    ""name"": ""5"",
                     ""type"": ""Button"",
-                    ""id"": ""eba96361-7a37-40d9-a0da-d0a2cf7e1f71"",
+                    ""id"": ""fc369b46-3243-4c9f-add4-0970bbe95465"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -74,94 +83,6 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 }
             ],
             ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""d20bfd1b-1046-4d3f-9400-e07e9e8790bb"",
-                    ""path"": ""<Keyboard>/1"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9f330c0f-1c98-40f2-9bce-adead26ba9e1"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button11"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""1"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1047df86-dade-465e-9800-c56ad5b5aac8"",
-                    ""path"": ""<Keyboard>/2"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""2"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""98343206-9d6f-40f7-9c14-5b5ead3ab3f1"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button10"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""2"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""21d0d6d1-9c46-4373-bd5f-7c6d692c8b97"",
-                    ""path"": ""<Keyboard>/3"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""a07ceebd-9736-49fa-aa68-f6e6eddcf59a"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""3"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8bd60694-6314-4f53-81aa-3e0c973f8369"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""d3554845-f813-42d2-bc2f-8dcb93071e2a"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""4"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
                 {
                     ""name"": """",
                     ""id"": ""c405e0a2-4c6c-4917-b9aa-f60c726c10c8"",
@@ -175,12 +96,111 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""581cfb46-a9ee-47d2-868d-0eb42de184a3"",
-                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4"",
+                    ""id"": ""34fb43be-320c-471a-8030-07c17c75c306"",
+                    ""path"": ""<Keyboard>/1"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""enter"",
+                    ""action"": ""1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e300f2a8-0f30-4302-8093-362754a05abb"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button11"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a28552b8-87e7-4ef6-9ebe-2390dac930c2"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7611dd30-45d9-42b0-9f18-4d17413412bc"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button10"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""2"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""73fb7db4-cb87-41e7-8c25-59d1309494c0"",
+                    ""path"": ""<Keyboard>/3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4653db85-4ed9-445a-8a69-072af163468c"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""3"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1f30c51b-e6c0-43f2-bfef-aef61d9b9654"",
+                    ""path"": ""<Keyboard>/4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""facba9ca-751b-42f3-8b47-a7cc4abe3f26"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""4"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dfa74d59-b322-4f75-bb80-e73f226201d3"",
+                    ""path"": ""<Keyboard>/5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""72cb7d4e-a745-4d60-931a-5219d2c4d9b0"",
+                    ""path"": ""<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""5"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -191,11 +211,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
 }");
         // GameControls
         m_GameControls = asset.FindActionMap("GameControls", throwIfNotFound: true);
+        m_GameControls_enter = m_GameControls.FindAction("enter", throwIfNotFound: true);
         m_GameControls__1 = m_GameControls.FindAction("1", throwIfNotFound: true);
         m_GameControls__2 = m_GameControls.FindAction("2", throwIfNotFound: true);
         m_GameControls__3 = m_GameControls.FindAction("3", throwIfNotFound: true);
         m_GameControls__4 = m_GameControls.FindAction("4", throwIfNotFound: true);
-        m_GameControls_enter = m_GameControls.FindAction("enter", throwIfNotFound: true);
+        m_GameControls__5 = m_GameControls.FindAction("5", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -257,20 +278,22 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     // GameControls
     private readonly InputActionMap m_GameControls;
     private List<IGameControlsActions> m_GameControlsActionsCallbackInterfaces = new List<IGameControlsActions>();
+    private readonly InputAction m_GameControls_enter;
     private readonly InputAction m_GameControls__1;
     private readonly InputAction m_GameControls__2;
     private readonly InputAction m_GameControls__3;
     private readonly InputAction m_GameControls__4;
-    private readonly InputAction m_GameControls_enter;
+    private readonly InputAction m_GameControls__5;
     public struct GameControlsActions
     {
         private @Controls m_Wrapper;
         public GameControlsActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @enter => m_Wrapper.m_GameControls_enter;
         public InputAction @_1 => m_Wrapper.m_GameControls__1;
         public InputAction @_2 => m_Wrapper.m_GameControls__2;
         public InputAction @_3 => m_Wrapper.m_GameControls__3;
         public InputAction @_4 => m_Wrapper.m_GameControls__4;
-        public InputAction @enter => m_Wrapper.m_GameControls_enter;
+        public InputAction @_5 => m_Wrapper.m_GameControls__5;
         public InputActionMap Get() { return m_Wrapper.m_GameControls; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -280,6 +303,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_GameControlsActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_GameControlsActionsCallbackInterfaces.Add(instance);
+            @enter.started += instance.OnEnter;
+            @enter.performed += instance.OnEnter;
+            @enter.canceled += instance.OnEnter;
             @_1.started += instance.On_1;
             @_1.performed += instance.On_1;
             @_1.canceled += instance.On_1;
@@ -292,13 +318,16 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @_4.started += instance.On_4;
             @_4.performed += instance.On_4;
             @_4.canceled += instance.On_4;
-            @enter.started += instance.OnEnter;
-            @enter.performed += instance.OnEnter;
-            @enter.canceled += instance.OnEnter;
+            @_5.started += instance.On_5;
+            @_5.performed += instance.On_5;
+            @_5.canceled += instance.On_5;
         }
 
         private void UnregisterCallbacks(IGameControlsActions instance)
         {
+            @enter.started -= instance.OnEnter;
+            @enter.performed -= instance.OnEnter;
+            @enter.canceled -= instance.OnEnter;
             @_1.started -= instance.On_1;
             @_1.performed -= instance.On_1;
             @_1.canceled -= instance.On_1;
@@ -311,9 +340,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
             @_4.started -= instance.On_4;
             @_4.performed -= instance.On_4;
             @_4.canceled -= instance.On_4;
-            @enter.started -= instance.OnEnter;
-            @enter.performed -= instance.OnEnter;
-            @enter.canceled -= instance.OnEnter;
+            @_5.started -= instance.On_5;
+            @_5.performed -= instance.On_5;
+            @_5.canceled -= instance.On_5;
         }
 
         public void RemoveCallbacks(IGameControlsActions instance)
@@ -333,10 +362,11 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public GameControlsActions @GameControls => new GameControlsActions(this);
     public interface IGameControlsActions
     {
+        void OnEnter(InputAction.CallbackContext context);
         void On_1(InputAction.CallbackContext context);
         void On_2(InputAction.CallbackContext context);
         void On_3(InputAction.CallbackContext context);
         void On_4(InputAction.CallbackContext context);
-        void OnEnter(InputAction.CallbackContext context);
+        void On_5(InputAction.CallbackContext context);
     }
 }
